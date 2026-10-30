@@ -251,3 +251,68 @@ main {
 .contact-form h2 {
     color: #102a43;
 }
+
+/* Contact Form */
+
+.contact-form label {
+    display: block;
+    margin: 12px 0 5px;
+    font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 11px;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    font: inherit;
+    margin-bottom: 8px;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    outline: 2px solid #8bbce0;
+    border-color: #2870a8;
+}
+
+/* Footer */
+
+footer {
+    background-color: #102a43;
+    color: white;
+    text-align: center;
+    padding: 18px;
+    margin-top: 20px;
+}
+
+/* Responsive Design */
+
+@media (max-width: 750px) {
+
+    header {
+        flex-direction: column;
+    }
+
+    .hero,
+    .contact-layout {
+        flex-direction: column;
+    }
+
+    .hero h1 {
+        font-size: 34px;
+    }
+
+    .hero-images {
+        width: 100%;
+    }
+
+    .hero-images img {
+        height: 220px;
+    }
+
+    .product-grid {
+        grid-template-columns: 1fr;
+    }
+
+}
