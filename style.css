@@ -31,3 +31,26 @@ header {
     letter-spacing: 1px;
 }
 
+/* Navigation Bar */
+
+nav {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 9px 14px;
+    border-radius: 6px;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #2870a8;
+}
+
+nav a.active {
+    background-color: #2870a8;
+}
