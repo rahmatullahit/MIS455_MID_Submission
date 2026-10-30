@@ -221,3 +221,33 @@ main {
     text-align: center;
     margin-top: 20px;
 }
+
+/* Contact Page */
+
+.contact-layout {
+    display: flex;
+    align-items: flex-start;
+    gap: 28px;
+}
+
+.contact-info,
+.contact-form {
+    flex: 1;
+    background-color: white;
+    padding: 22px;
+    border-radius: 12px;
+
+    box-shadow: 0 4px 15px rgba(16, 42, 67, 0.09);
+}
+
+.contact-info img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.contact-info h2,
+.contact-form h2 {
+    color: #102a43;
+}
