@@ -1,0 +1,33 @@
+/* CSS for all pages */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #202938;
+    background-color: #f5f7fb;
+    line-height: 1.6;
+}
+
+/* Header */
+
+header {
+    background-color: #102a43;
+    color: white;
+    padding: 18px 7%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.logo {
+    font-size: 27px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
