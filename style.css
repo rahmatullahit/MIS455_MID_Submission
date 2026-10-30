@@ -165,3 +165,20 @@ main {
 .intro h2 {
     color: #102a43;
 }
+
+/* Products and Contact Pages */
+
+.page-main {
+    padding: 35px 7% 55px;
+}
+
+.page-heading {
+    text-align: center;
+    max-width: 780px;
+    margin: 0 auto 30px;
+}
+
+.page-heading h1 {
+    font-size: 38px;
+    color: #102a43;
+}
